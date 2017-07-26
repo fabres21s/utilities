@@ -1,5 +1,8 @@
 package predictible;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Partido {
 
 	private String equipoA;
@@ -11,6 +14,15 @@ public class Partido {
 	private double[] cuotas; //que pagan
 	private String [] opciones; //generadas aleatoriamente
 	private double [] valorOpcion;
+	
+	private List<String> optionsGenerated;
+	private List<String> apuestaIntermedia;
+	private List<String> apuestaDefinitiva;
+	
+	public Partido() {
+		this.apuestaIntermedia = new ArrayList<>();
+		this.apuestaDefinitiva = new ArrayList<>();
+	}
 	
 	public String getEquipoA() {
 		return equipoA;
@@ -66,5 +78,29 @@ public class Partido {
 
 	public void setValorOpcion(double[] valorOpcion) {
 		this.valorOpcion = valorOpcion;
+	}
+
+	public List<String> getOptionsGenerated() {
+		return optionsGenerated;
+	}
+
+	public void setOptionsGenerated(List<String> optionsGenerated) {
+		this.optionsGenerated = optionsGenerated;
+	}
+
+	public List<String> getApuestaIntermedia() {
+		return apuestaIntermedia;
+	}
+
+	public void setApuestaIntermedia(List<String> apuestaIntermedia) {
+		this.apuestaIntermedia = apuestaIntermedia;
+	}
+
+	public List<String> getApuestaDefinitiva() {
+		return apuestaDefinitiva;
+	}
+
+	public void setApuestaDefinitiva(List<String> apuestaDefinitiva) {
+		this.apuestaDefinitiva = apuestaDefinitiva;
 	}
 }

@@ -1,0 +1,14 @@
+1x	un	x	un	1x	x	x	un	2x	gg	2	2x	1	gg	1x	un	x	2	x	un
+1	un	1x	gg	1	x	1	12	1	1x	1	un	1	un	1	ov	12	2x	1	gg
+1x	gg	x	un	1x	2x	2	un	2x	2	2x	ov	x	un	1x	x	1x	2x	x	12
+1	un	1	1x	1	un	1	un	1x	gg	1x	12	2x	un	1	2x	1	ng	1	ov
+2x	gg	1x	gg	x	gg	2x	1x	1x	ov	2x	ov	gg	1	x	ov	x	ov	1x	un
+1	un	1x	un	ng	un	1	ov	1	un	1	ov	2x	ov	un	ov	ov	gg	2x	un
+
+
+[un,	 x,		1x, 	un, 	x, 		x, 		x, 		x, 	un, 1, 2, un, 1x, 2x, 2x, gg, gg, un, 2, 1x]
+[1x,	 un,	12, 	1, 		x, 		un, 	gg, 	1, 	2x, 1x, 1, ov, 1, 1, 1, un, gg, 12, 1, 1]
+[1x, 	 2x,	2x, 	gg, 	2, 		2x, 	un, 	1x, 2, 	x, 1x, un, 1x, x, x, un, 12, ov, 2x, x]
+[1, 	 un,	un, 	un, 	1, 		12, 	1, 		1, 	1x, 2x, 1x, ng, 1, 1x, 2x, 1, un, gg, ov, 1]
+[gg,	 1,		1x, 	1x, 	1x, 	2x, 	un, 	1x, ov, 2x, ov, 2x, x, gg, ov, gg, gg, ov, x, x]
+[ng,	 1,	 	2x, 	1, 		un, 	1, 		1, 		un, ov, ov, un, ov, gg, ov, 2x, 1x, un, un, un, ov]
