@@ -22,7 +22,7 @@ public class Main {
 
 		Map<String, List<String>> map = new HashMap<String, List<String>>();
 
-		Scanner input = new Scanner(new File("datos3.txt"));
+		Scanner input = new Scanner(new File("datos.txt"));
 		Apuesta apuesta = new Apuesta();
 
 		int seqFibonacci = 1;
@@ -72,7 +72,7 @@ public class Main {
 		}
 
 		List<Partido> partidos = new ArrayList<Partido>();
-		for (int i = 0; i < 6; i++) {
+		for (int i = 0; i < 4; i++) {
 			int r = getRandom(partidosAll.size()); // TODO este es el
 													// problema
 			partidos.add(partidosAll.get(r));
@@ -179,7 +179,7 @@ public class Main {
 						partido.getApuestaDefinitiva().add(opciones[i]);
 					}
 				}
-				if (partido.getApuestaDefinitiva().size() < 100) {
+				if (partido.getApuestaDefinitiva().size() < 1000) {
 					continuarDefinitivo = true;
 				}
 			}
